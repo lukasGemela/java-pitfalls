@@ -4,10 +4,10 @@ public class DivisionTest {
 
     public static void main(String[] args) {
 
-        float x = 10.0f / 0.0f;
+        float x = 10.0f / 0;
         System.out.println(x);
 
-        double y = 10.0 / 0.0;
+        double y = 10.0 / 0;
         System.out.println(y);
 
         Double.isInfinite(y);
